@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+}
+h1{
+    color: brown;
+    font-size: 50px;
+    display: block;
+    position: absolute;
+}
+.app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttonGroup{
+    margin-top: 150px;    
+}
+button{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+    background-color: rgb(238, 173, 88);
+    border: none;
+}
+.button--no{
+    right: 50%;
+}
